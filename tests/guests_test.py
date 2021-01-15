@@ -18,6 +18,9 @@ class TestGuest(unittest.TestCase):
     def test_guest_has_favourite_song(self):
         self.assertEqual("Genie in a Bottle", self.guest.fav_song)
 
+
+    # EXTENSION
+    
     def test_enough_money_for_entry(self):
         self.assertEqual(True, self.guest.entry_fee(self.guest))
 
