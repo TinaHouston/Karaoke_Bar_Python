@@ -12,3 +12,15 @@ class Guest:
                 return True
             else:
                 return False
+
+    def playback(self, fav_song):
+        for song in self.fav_song:
+            if self.fav_song == "Genie in a Bottle":
+                return "Woohoo!"
+            else:
+                return "Awww"
+
+    # FURTHER EXTENSIONS
+    
+    def pay_entry_fee(self, cash):
+        return self.cash - 10

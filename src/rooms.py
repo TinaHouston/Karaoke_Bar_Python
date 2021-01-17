@@ -4,6 +4,7 @@ class Rooms:
         self. capacity = capacity
         self.guests = []
         self.songs = songs
+        self.bar = []
 
 
     # Function might be needed for PDA?
@@ -27,3 +28,9 @@ class Rooms:
                     return "Too full, sorry"
                 else: 
                     return "Come on in"
+
+
+# FURTHER EXTENSIONS
+
+    def add_bar(self, bar):
+        self.bar.append(bar)
